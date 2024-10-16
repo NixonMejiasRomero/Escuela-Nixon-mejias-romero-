@@ -53,7 +53,39 @@ main.parent {
      width: 13rem;
      margin-left: 50%;
 }
-
+/**/
+/*section 1*/
+section.nosotros {
+  display: flex;
+  margin: 5rem 0 1rem;
+}
+p.hero_paragraph {
+  width: 375px;
+}
+.subtittle2{
+  color: var(--color-tittle);
+  font-size: 2rem;
+  margin-bottom: 2px;
+}
+picture.abount_img img {
+  width: 29rem;
+  margin: -10rem;
+}
+.about_textContainer {
+  max-width: 19rem;
+}
+.about_textContainer p {
+  margin: 50px 0 20px 0;
+}
+.about_textContainer h2 {
+  width: 22rem;
+}
+.about_textContainer h2:nth-child(2) {
+  color: #009696;
+  border-bottom: dashed 2px;
+  padding-bottom: 25px;
+  margin-bottom: 1rem;
+}
   /**/
     .second_container-minigalery {
       margin-top: 4rem;
@@ -66,6 +98,8 @@ main.parent {
     margin-bottom: 2rem;
     display: flex;
     align-items: center;
+    text-decoration: none;
+    color: black;
   }
 
   .second_container img {
@@ -108,8 +142,7 @@ main.parent {
       flex-direction: column;
       align-items: center;
       font-size: 1.5rem;
-      font-family: 'Josefin Sans';
-  }
+      font-family: "Josefin Sans", sans-serif;  }
   .contenedor img {
     width: 7rem;
     height: 7rem;
@@ -124,4 +157,23 @@ main.parent {
   height: 2rem;
   border-radius: 18px;
   margin: 1rem 0 2rem;
+}
+/**/
+footer {
+  display: flex;
+  background-color: green;
+  width: 100%;
+  height: 2rem;
+  align-items: center;
+  color: white;
+  
+
+}
+footer p {
+  font-family: "Josefin Sans", sans-serif;
+}
+@media (max-width:920px){
+  section.nosotros{
+      flex-wrap: wrap;
+  }
 }
